@@ -1,0 +1,66 @@
+<OR>
+  <form>((//div[@class= 'v-list list-hover-none pb-0 pt-0 v-sheet theme--light'])[5]//button[@type='button'])[3]</form>
+  <INTform>//span[@class="v-btn__content" and contains (text(),"1099-INT")]</INTform>
+  <taxyr>//span[@class='v-btn__content'and contains(text(),"File Form 1099-INT for 2021")]</taxyr>
+  <manual>//button[@type='button' and @class='btn-hover-shrink primary-btn v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary text-capitalize border-0 xl']</manual>
+  <selectpayer>//*[@id='__nuxt']/div/div/div[1]/main/div/div/div[1]/div[2]/div/div/div/form/div[1]/div/div/section/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/section/button/span</selectpayer>
+  <psearch>//div[@class='v-text-field__slot']//input[@placeholder='Search by Payer/Employer Name, Ref.No and EIN/SSN']</psearch>
+  <spayer>//button[@class='text-capitalize primary-outlined-btn v-btn v-btn--outlined theme--light v-size--default secondary--text']//span[@class='v-btn__content']</spayer>
+  <pname>(//input[@type='text' and @maxlength ='40'])[1]</pname>
+  <pein>(//label[contains(text(),"EIN")])[1]</pein>
+  <pssn>(//label[contains(text(),"SSN")])[1]</pssn>
+  <payerssn>//label[contains(text(),"Payer's SSN")]/following-sibling::input</payerssn>
+  <paddress>(//input[@type='text' and @maxlength ='35'])[1]</paddress>
+  <pcity>(//input[@type='text' and @maxlength ='27'])[1]</pcity>
+  <pzipcode>(//label[contains(text(),"ZIP Code")]/following-sibling::input)[1]</pzipcode>
+  <pstate>(//label[contains(text(),"State")]/following-sibling::div/input)[1]</pstate>
+  <rselect>//span[@class='recipent-name mr-auto']</rselect>
+  <typereci>//div[@class='v-text-field__slot']//input[@placeholder='Search by Employee/Recipient Name or TIN']</typereci>
+  <rclick>//div[@class='pa-2 border-bottom v-list-item v-list-item--link theme--light']</rclick>
+  <rlookup>//span[@class='v-btn__content']//i[@class='v-icon notranslate mdi mdi-book-search-outline theme--light primary--text']</rlookup>
+  <rtype>//div[@class='v-text-field__slot']//input[@placeholder='Search']</rtype>
+  <reciselect>(//td[@class='text-center']//button[@class='text-capitalize primary-outlined-btn v-btn v-btn--outlined theme--light v-size--default secondary--text'])[2]</reciselect>
+  <reciselect1>//td[@class='text-center']//button[@class='text-capitalize primary-outlined-btn v-btn v-btn--outlined theme--light v-size--default secondary--text'][1]</reciselect1>
+  <itin>//label[text()="ITIN"]</itin>
+  <atin>//label[text()="ITIN"]/../../../preceding-sibling::span[1]</atin>
+  <ssn>//label[text()="ITIN"]/../../../preceding-sibling::span[2]</ssn>
+  <ein>//label[text()="ITIN"]/../../../preceding-sibling::span[3]</ein>
+  <rein>//label[contains(text(),"Recipient's EIN")]/following-sibling::input</rein>
+  <rssn>//label[contains(text(),"Recipient's SSN")]/following-sibling::input</rssn>
+  <ratin>//label[contains(text(),"Recipient's ATIN")]/following-sibling::input</ratin>
+  <ritin>//label[contains(text(),"Recipient's ITIN")]/following-sibling::input</ritin>
+  <rname>//label[contains(text(),"Recipient's Name")]/following-sibling::input</rname>
+  <raddress>(//label[contains(text(),"Address Line 1")]/following-sibling::input)[2]</raddress>
+  <rcity>(//label[contains(text(),"City")]/following-sibling::input)[2]</rcity>
+  <rzip>(//label[contains(text(),"ZIP Code")]/following-sibling::input)[2]</rzip>
+  <rstate>(//label[contains(text(),"State")]/following-sibling::div/input)[2]</rstate>
+  
+  <payerrtn>//*[@id='__nuxt']/div/div/div/main/div/div/div[1]/div[2]/div/div/div/form/div[1]/div/div/section/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div/div/div/input</payerrtn>
+  <interest>(//input[@type='text' and @maxlength ='16'])[1]</interest>
+  <early>(//input[@type='text' and @maxlength ='16'])[2]</early>
+  <ussavings>(//input[@type='text' and @maxlength ='16'])[3]</ussavings>
+  <fditw>(//input[@type='text' and @maxlength ='16'])[4]</fditw>
+  <invesmentexp>(//input[@type='text' and @maxlength ='16'])[5]</invesmentexp>
+  <ftaxpaid>(//input[@type='text' and @maxlength ='16'])[6]</ftaxpaid>
+  <fcountry>//*[@id='__nuxt']/div/div/div/main/div/div/div[1]/div[2]/div/div/div/form/div[1]/div/div/section/div[2]/div[2]/div/div[1]/div[1]/div[8]/div/div[2]/div/div/div/input</fcountry>
+  <taxexempt>(//input[@type='text' and @maxlength ='16'])[7]</taxexempt>
+  <privateactivity>(//input[@type='text' and @maxlength ='16'])[8]</privateactivity>
+  <marketdiscount>(//input[@type='text' and @maxlength ='16'])[9]</marketdiscount>
+  <bondpremium>(//input[@type='text' and @maxlength ='16'])[10]</bondpremium>
+  <bptreasury>(//input[@type='text' and @maxlength ='16'])[11]</bptreasury>
+  <bptaxexempt>(//input[@type='text' and @maxlength ='16'])[12]</bptaxexempt>
+  <cusipno>(//input[@type='text' and @maxlength ='13'])[1]</cusipno>
+
+  <usadd>//div[@class='v-card__actions justify-space-between']//button[@class='text-capitalize border-0 xl v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary']</usadd>
+  <saveadd>//button[@class='text-capitalize secondary-btn btn-hover-shrink mr-4 v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large secondary']</saveadd>
+  <ignore>//button[@class='text-capitalize border-0 pa-5 v-btn v-btn--has-bg theme--light elevation-1 v-size--default']</ignore>
+  <savecont>//button[@class='text-capitalize primary-btn btn-hover-shrink v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary']</savecont>
+  <addnew>//span[@class="v-btn__content" and contains(text(),"Add New Form")]</addnew>
+  <clicknec>(//span[@class='v-btn__content'and contains(text(),"1099-NEC")])[1]</clicknec>
+  <clickfilenec>//span[@class='v-btn__content'and contains(text(),"File Form 1099-NEC for 2021")]</clickfilenec>
+  <clickmanual>(//button[@type='button' and @class='btn-hover-shrink primary-btn text-capitalize v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary'])[1]</clickmanual>
+  <addressent>//label[@class="v-label theme--light" and contains(text(),"Address you entered")]</addressent>
+  <addresscont>//button[@class='text-capitalize border-0 xl v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary']</addresscont>
+
+
+</OR>
