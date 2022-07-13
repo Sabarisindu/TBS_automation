@@ -1,0 +1,61 @@
+<OR>
+  <w2form>(//span[@class="v-btn__content" and contains (text(),"W-2")])[1]</w2form>
+  <taxyear2021>//span[@class="v-btn__content" and contains (text(),"File Form W-2 for 2021")]</taxyear2021>
+  <manual>//button[@type='button' and @class='btn-hover-shrink primary-btn v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary text-capitalize border-0 xl']</manual>
+  <bulk>//button[@type='button' and @class='btn-hover-shrink primary-btn text-capitalize border-0 xl v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary']</bulk>
+  <business>//span[@class='v-btn__content' and contains(text(), 'Select / Add Business')]</business>
+  <bsearch>//input[@type='text' and @placeholder='Search by Payer/Employer Name, Ref.No and EIN']</bsearch>
+  <bselect>//button[@class='text-capitalize primary-outlined-btn v-btn v-btn--outlined theme--light v-size--default secondary--text' and @type='button']</bselect>
+  
+  <bterminate>(//div[@class='v-input--selection-controls__ripple'])[2]</bterminate>
+  <ssn>//label[contains(text(),"SSN")]/following-sibling::input</ssn>
+  <email>(//label[contains(text(),"Email Address")]/following-sibling::input)[2]</email>
+  <ph>(//label[contains(text(),"Phone Number")]/following-sibling::input)[2]</ph>
+  <fname>//label[contains(text(),"First Name")]/following-sibling::input</fname>
+  <midname>//label[contains(text(),"Middle/Initial")]/following-sibling::input</midname>
+  <lname>//label[contains(text(),"Last Name")]/following-sibling::input</lname>
+  <suffix>//label[contains(text(),"Recipient's Name")]/following-sibling::input</suffix>
+  <ctrl>(//label[contains(text(),"Control Number")]/following-sibling::input)</ctrl>
+  
+  <baddr>(//label[contains(text(),"Address Line 1")]/following-sibling::input)[2]</baddr>
+  <baddr>(//label[contains(text(),"Address Line 2")]/following-sibling::input)[2]</baddr>
+  <bcity>(//label[contains(text(),"City")]/following-sibling::input)[2]</bcity>
+  <bzip>(//label[contains(text(),"ZIP Code")]/following-sibling::input)[2]</bzip>
+  <bstate>(//label[contains(text(),"State")]/following-sibling::div/input)[2]</bstate>
+  <employee>//span[@class='v-btn__content' and contains(text(), 'Search by Employee Name/SSN')]</employee>
+  <esearch>//input[@type='text' and @placeholder='Search by Employee/Recipient Name or TIN']</esearch>
+  <eselect>//div[@class='pa-2 border-bottom v-list-item v-list-item--link theme--light']</eselect>
+  <onlineaccess>(//div[@class='v-input--selection-controls__ripple'])[4]</onlineaccess>
+  
+  <line1>//em[contains(text(),"1 Wages, tips, other compensation")]/../..//following-sibling::section/div/div/div/div/input</line1>
+  <line2>//em[contains(text(),"2 Federal income tax withheld")]/../..//following-sibling::section/div/div/div/div/input</line2>
+  <line3>//em[contains(text(),"3 Social security wages")]/../..//following-sibling::section/div/div/div/div/input</line3>
+  <line4>//em[contains(text(),"4 Social security tax withheld")]/../..//following-sibling::section/div/div/div/div/input</line4>
+  <line5>//em[contains(text(),"5 Medicare wages and tips")]/../..//following-sibling::section/div/div/div/div/input</line5>
+  <line6>//em[contains(text(),"6 Medicare tax withheld")]/../..//following-sibling::section/div/div/div/div/input</line6>
+  <line7>//em[contains(text(),"7 Social security tips")]/../following-sibling::section/div/div/div/div/input</line7>
+  <line8>//em[contains(text(),"8 Allocated tips")]/../..//following-sibling::section/div/div/div/div/input</line8>
+  <line10>//em[contains(text(),"10 Dependent care benefits")]/../..//following-sibling::section/div/div/div/div/input</line10>
+  <line11>(//em[contains(text(),"11 Nonqualified plans")]/../..//following-sibling::section/div/div/div/div/input)[1]</line11>
+  
+  <line12a>(//i[@class='v-icon notranslate mdi mdi-menu-down theme--light'])[6]</line12a>
+  <line12b>(//i[@class='v-icon notranslate mdi mdi-menu-down theme--light'])[7]</line12b>
+  <line12c>(//i[@class='v-icon notranslate mdi mdi-menu-down theme--light'])[8]</line12c>
+  <line12d>(//i[@class='v-icon notranslate mdi mdi-menu-down theme--light'])[9]</line12d>
+  <codeA>(//div[@class="v-list-item__title" and contains(text(),"A")])[1]</codeA>
+  <codeB>(//div[@class="v-list-item__title" and contains(text(),"B")])[1]</codeB>
+  <codeC>(//div[@class="v-list-item__title" and contains(text(),"C")])[1]</codeC>
+  <codeD>(//div[@class="v-list-item__title" and contains(text(),"D")])[1]</codeD>
+  
+  
+  <statutoryemp>//label[@class='v-label theme--light' and contains(text(),'Statutory employee')]</statutoryemp> 
+  <retirementplan>//label[@class='v-label theme--light' and contains(text(),'Retirement plan')]</retirementplan>
+  <thirdparty>//label[@class='v-label theme--light' and contains(text(),'Third-party pay')]</thirdparty>
+  <line14>//textarea[@tabindex='0']</line14>
+  <save>//span[@class="v-btn__content" and contains(text(),"Save &#038; Add Another")]</save>
+  <savecon>//span[@class="v-btn__content" and contains(text(),"Save &#038; Continue")]</savecon>
+  <address>//label[@class="v-label theme--light" and contains(text(),"Address you entered")]</address>
+  <continue>//button[@class='text-capitalize border-0 xl v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary']</continue>
+  <add>//span[@class="v-btn__content" and contains(text(),"Add New Form")]</add>
+  <misc>//p[contains (text(), 'Manually add Form 1099-MISC details for each recipient.')]/../../following-sibling::div/button</misc>
+</OR>

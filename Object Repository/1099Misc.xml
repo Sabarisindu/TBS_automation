@@ -1,0 +1,55 @@
+<OR>
+  <nec>((//div[@class= 'v-list list-hover-none pb-0 pt-0 v-sheet theme--light'])[5]//button[@type='button'])[1]</nec>
+  <miscform>//span[@class="v-btn__content" and contains (text(),"1099-MISC")]</miscform>
+  <w2form>//span[@class="v-btn__content" and contains (text(),"W-2")]</w2form>
+  <taxyear2021>//span[@class="v-btn__content" and contains (text(),"File Form 1099-MISC for 2021")]</taxyear2021>
+  <manual>//button[@type='button' and @class='btn-hover-shrink primary-btn v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary text-capitalize border-0 xl']</manual>
+  <bulk>//button[@type='button' and @class='btn-hover-shrink primary-btn text-capitalize border-0 xl v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary']</bulk>
+  <business>//span[@class='v-btn__content' and contains(text(), 'Select / Add Business')]</business>
+  <bsearch>//input[@type='text' and @placeholder='Search by Payer/Employer Name, Ref.No and EIN/SSN']</bsearch>
+  <bselect>//button[@class='text-capitalize primary-outlined-btn v-btn v-btn--outlined theme--light v-size--default secondary--text' and @type='button']</bselect>
+  
+  <itin>//label[text()="ITIN"]</itin>
+  <atin>//label[text()="ITIN"]/../../../preceding-sibling::span[1]</atin>
+  <ssn>//label[text()="ITIN"]/../../../preceding-sibling::span[2]</ssn>
+  <ein>//label[text()="ITIN"]/../../../preceding-sibling::span[3]</ein>
+  <rein>//label[contains(text(),"Recipient's EIN")]/following-sibling::input</rein>
+  <rssn>//label[contains(text(),"Recipient's SSN")]/following-sibling::input</rssn>
+  <ratin>//label[contains(text(),"Recipient's ATIN")]/following-sibling::input</ratin>
+  <ritin>//label[contains(text(),"Recipient's ITIN")]/following-sibling::input</ritin>
+  <remail>(//label[contains(text(),"Email Address")]/following-sibling::input)[2]</remail>
+  <rph>(//label[contains(text(),"Phone Number")]/following-sibling::input)[2]</rph>
+  <rname>//label[contains(text(),"Recipient's Name")]/following-sibling::input</rname>
+  <racc>(//label[contains(text(),"Account Number")]/following-sibling::input)[1]</racc>
+  <baddr>(//label[contains(text(),"Address Line 1")]/following-sibling::input)[2]</baddr>
+  <bcity>(//label[contains(text(),"City")]/following-sibling::input)[2]</bcity>
+  <bzip>(//label[contains(text(),"ZIP Code")]/following-sibling::input)[2]</bzip>
+  <bstate>(//label[contains(text(),"State")]/following-sibling::div/input)[2]</bstate>
+  <recipient>//span[@class='recipent-name mr-auto' and contains(text(), 'Search by Recipient Name/TIN')]</recipient>
+  <rsearch>//input[@type='text' and @placeholder='Search by Employee/Recipient Name or TIN']</rsearch>
+  <rselect>//div[@class='pa-2 border-bottom v-list-item v-list-item--link theme--light']</rselect>
+  
+  <line1>//em[contains(text(),"Rents")]/../..//following-sibling::section/div/div/div/div/input</line1>
+  <line2>//em[contains(text(),"Royalties")]/../..//following-sibling::section/div/div/div/div/input</line2>
+  <line3>//em[contains(text(),"Other income")]/../..//following-sibling::section/div/div/div/div/input</line3>
+  <line4>//em[contains(text(),"Federal ")]/../..//following-sibling::section/div/div/div/div/input</line4>
+  <line5>//em[contains(text(),"Fishing")]/../..//following-sibling::section/div/div/div/div/input</line5>
+  <line6>//em[contains(text(),"Medical")]/../..//following-sibling::section/div/div/div/div/input</line6>
+  <line7>//em[contains(text(),"Payer made direct sales totaling $5,000 or more of ")]/../following-sibling::div/div/div/div/input</line7>
+  <line8>//em[contains(text(),"Substitute")]/../..//following-sibling::section/div/div/div/div/input</line8>
+  <line9>//em[contains(text(),"Crop")]/../..//following-sibling::section/div/div/div/div/input</line9>
+  <line10>//em[contains(text(),"Gross")]/../..//following-sibling::section/div/div/div/div/input</line10>
+  <line11>//em[contains(text(),"Fish purchased")]/../..//following-sibling::section/div/div/div/div/input</line11>
+  <line12>//em[contains(text(),"Section")]/../..//following-sibling::section/div/div/div/div/input</line12> 
+  <line13>//em[contains(text(),"Excess")]/../..//following-sibling::section/div/div/div/div/input</line13>
+  <line14>//em[contains(text(),"Nonqualified")]/../..//following-sibling::section/div/div/div/div/input</line14>
+  <ronline>//label[contains (text(), 'Select if you want to allow this employee to access Form 1099-MISC Online.')]</ronline>
+  <save>//span[@class="v-btn__content" and contains(text(),"Save &#038; Add Another")]</save>
+  <ErrorPopup>(//div[@class='mx-auto box-shadow-none v-card v-sheet theme--light'])</ErrorPopup>
+  <FixError>//span[contains (text(), 'Fix Errors')]</FixError>
+  <savecon>//span[@class="v-btn__content" and contains(text(),"Save &#038; Continue")]</savecon>
+  <address>//label[@class="v-label theme--light" and contains(text(),"Address you entered")]</address>
+  <continue>//button[@class='text-capitalize border-0 xl v-btn v-btn--has-bg theme--light elevation-1 v-size--x-large primary']</continue>
+  <add>//span[@class="v-btn__content" and contains(text(),"Add New Form")]</add>
+  <misc>//p[contains (text(), 'Manually add Form 1099-MISC details for each recipient.')]/../../following-sibling::div/button</misc>
+</OR>
